@@ -24,6 +24,10 @@ main {
     width: 100vw;
 }
 
+label {
+    font-size: .9em;
+}
+
 section#login {
     position: absolute;
     top: 50%;
@@ -39,7 +43,6 @@ section#login {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
-
 }
 
 section#login > div#imagem {
@@ -53,3 +56,14 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+
